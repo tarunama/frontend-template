@@ -1,7 +1,0 @@
-{
-  "name": "next",
-  "version": "14.2.3",
-  "bin": {
-    "next": "index.js"
-  }
-}

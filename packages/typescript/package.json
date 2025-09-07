@@ -1,7 +1,0 @@
-{
-  "name": "typescript",
-  "version": "5.4.0",
-  "bin": {
-    "tsc": "bin/tsc"
-  }
-}
