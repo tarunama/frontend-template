@@ -1,0 +1,22 @@
+{
+  "name": "frontend-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"No tests specified\""
+  },
+  "dependencies": {
+    "next": "file:packages/next",
+    "react": "file:packages/react",
+    "react-dom": "file:packages/react-dom"
+  },
+  "devDependencies": {
+    "typescript": "file:packages/typescript",
+    "@types/react": "file:packages/@types/react",
+    "@types/node": "file:packages/@types/node"
+  }
+}

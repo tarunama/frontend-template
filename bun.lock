@@ -1,0 +1,31 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "frontend-template",
+      "dependencies": {
+        "next": "file:packages/next",
+        "react": "file:packages/react",
+        "react-dom": "file:packages/react-dom",
+      },
+      "devDependencies": {
+        "@types/node": "file:packages/@types/node",
+        "@types/react": "file:packages/@types/react",
+        "typescript": "file:packages/typescript",
+      },
+    },
+  },
+  "packages": {
+    "@types/node": ["@types/node@file:packages/@types/node", {}],
+
+    "@types/react": ["@types/react@file:packages/@types/react", {}],
+
+    "next": ["next@file:packages/next", { "bin": { "next": "index.js" } }],
+
+    "react": ["react@file:packages/react", {}],
+
+    "react-dom": ["react-dom@file:packages/react-dom", {}],
+
+    "typescript": ["typescript@file:packages/typescript", { "bin": { "tsc": "bin/tsc" } }],
+  }
+}
