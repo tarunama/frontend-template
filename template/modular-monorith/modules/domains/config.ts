@@ -8,20 +8,20 @@ export type DomainDescriptor = {
 export const DOMAIN_DESCRIPTORS: DomainDescriptor[] = [
   {
     slug: 'marketing',
-    title: 'Marketing',
-    summary: 'Campaign planning, lead scoring, and audience insights.',
-    tagline: 'Reach and convert the right customers with data-backed campaigns.',
+    title: 'マーケティング',
+    summary: 'キャンペーン計画やリードスコアリング、オーディエンス分析を担当するモジュールです。',
+    tagline: 'データに裏付けされた施策で適切な顧客にリーチし、コンバージョンを最大化します。',
   },
   {
     slug: 'accounts',
-    title: 'Accounts',
-    summary: 'Account provisioning, plan management, and billing visibility.',
-    tagline: 'Give customer success teams a full picture of every account.',
+    title: 'アカウント',
+    summary: 'アカウントのプロビジョニング、プラン管理、請求状況の可視化を担います。',
+    tagline: 'カスタマーサクセスが各顧客の全体像を把握できる基盤を提供します。',
   },
   {
     slug: 'support',
-    title: 'Support',
-    summary: 'Knowledge base, multichannel routing, and SLA analytics.',
-    tagline: 'Equip agents to solve issues quickly wherever customers reach out.',
+    title: 'サポート',
+    summary: 'ナレッジベース、多チャネルでの問い合わせ振り分け、SLA 分析を提供します。',
+    tagline: '顧客がどこから連絡しても迅速に課題を解決できる支援体制を整えます。',
   },
 ];
