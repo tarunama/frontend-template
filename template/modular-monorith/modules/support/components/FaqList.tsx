@@ -1,18 +1,18 @@
 const FAQS = [
   {
-    question: 'How do I publish new knowledge base articles?',
+    question: 'ナレッジベースの記事を公開するにはどうすればよいですか？',
     answer:
-      'Draft content collaboratively, request technical review, and publish with version history in a single workflow.',
+      '共同編集で原稿を作成し、技術レビューを依頼して、バージョン履歴付きで同じワークフローから公開できます。',
   },
   {
-    question: 'Can I prioritize tickets by SLAs?',
+    question: 'SLA ごとにチケットへ優先度を付けられますか？',
     answer:
-      'Yes. Ingest tickets from every channel and route them through queues scored by response and resolution targets.',
+      'はい。すべてのチャネルからチケットを取り込み、応答／解決目標に基づいてスコアリングされたキューに自動振り分けできます。',
   },
   {
-    question: 'How are agents onboarded?',
+    question: 'サポート担当者のオンボーディングはどのように行われますか？',
     answer:
-      'Provide guided scenarios and recordings inside the console so new teammates learn from resolved conversations.',
+      'コンソール内でガイド付きシナリオや録画を提供し、過去の解決済み会話から新しいメンバーが学べるようにします。',
   },
 ];
 
